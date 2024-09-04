@@ -381,7 +381,7 @@ nav {
 }
 
 #Main-Content a:nth-child(2) {
-    background-color: darkred;
+    background-color: var(--green);
     color: white;
 }
 
@@ -395,7 +395,7 @@ nav {
 }
 
 #Main-Content a:nth-child(2):hover {
-    background-color: red;
+    background-color: var(--light-green);
 }
 
 #Main-Content a:nth-child(3):hover {
