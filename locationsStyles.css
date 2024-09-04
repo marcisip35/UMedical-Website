@@ -612,10 +612,6 @@ footer {
         width: 750px;
     }
 
-    #Main-Content{
-        height: 1000px;
-    }
-
     #Main-Content .item{
         flex-direction: column;
     }

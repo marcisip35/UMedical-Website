@@ -26,27 +26,27 @@ function jobsFunction() {
     const jobHospitalId = document.getElementById("jobHospital");
     const jobPositionTypeId = document.getElementById("jobPositionType");
     const jobs = [
-        {
-            jobTitle: "Registered Nurse (RN)",
-            jobDescription: "Registered nurses (RNs) perform basic duties that include : - Treating patients, educating patients about mental and medical conditions, and providing advice and emotional support to patients’ and/or family members, running therapeutic groups, psychiatric crisis intervention, seclusion and restraint of patients. - RNs record patients’ medical histories and symptoms, help to perform diagnostic tests and analyze results, operate medical machinery, administer treatment and medications, and help with patient follow-up and rehabilitation. - RNs teach patients and their families how to manage their illness or injury, diet and exercise programs, and self-administration of medication and physical therapy. Other related...",
-            jobLocation: "<span>Location: </span> Phoenix Arizona",
-            jobHospital: "<span>Hospital: </span> Valley Vista Clinic",
-            jobPositionType: "<span>Position Type: </span> Full-Time",
-        },
-        {
-            jobTitle: "Cardiac Care Nurse (Night)",
-            jobDescription: "We are seeking a Cardiac Care Nurse (Nights), internally referred to as our Cardiac Care Unit (CCU) Registered Nurse (RN) at Saint John Hospital a member of Prime Healthcare. The Cardiac Nurse plays a critical role in attending to patients with heart conditions, cardiac issues, and associated illnesses, provide tailored care to enhance recovery and enhance quality of life.   Bonus Options: Up to a $20,000 (Paid out as stipends...We are seeking a Cardiac Care Nurse (Nights), internally referred to as our Cardiac Care Unit (CCU) Registered Nurse (RN) at Saint John Hospital a member of Prime Healthcare. The Cardiac Nurse plays a critical role in attending to patients with heart conditions, cardiac issues, and associated illnesses, provide tailored care to enhance recovery and enhance quality of life.   Bonus Options: Up to a $20,000 (Paid out as stipends...",
-            jobLocation: "<span>Location: </span> Phoenix Arizona",
-            jobHospital: "<span>Hospital: </span> Valley Vista Clinic",
-            jobPositionType: "<span>Position Type: </span> Part-Time",
-        },
-        {
-            jobTitle: "Primary Care Physician",
-            jobDescription: "The Physician will diagnosis, treat, and help with disease prevention and injury that commonly occur in the general population. May refer patient to specialist when needed for further diagnosis and treatment.",
-            jobLocation: "<span>Location: </span> Phoenix Arizona",
-            jobHospital: "<span>Hospital: </span> Valley Vista Clinic",
-            jobPositionType: "<span>Position Type: </span> Full-Time",
-        }
+        // {
+        //     jobTitle: "Registered Nurse (RN)",
+        //     jobDescription: "Registered nurses (RNs) perform basic duties that include : - Treating patients, educating patients about mental and medical conditions, and providing advice and emotional support to patients’ and/or family members, running therapeutic groups, psychiatric crisis intervention, seclusion and restraint of patients. - RNs record patients’ medical histories and symptoms, help to perform diagnostic tests and analyze results, operate medical machinery, administer treatment and medications, and help with patient follow-up and rehabilitation. - RNs teach patients and their families how to manage their illness or injury, diet and exercise programs, and self-administration of medication and physical therapy. Other related...",
+        //     jobLocation: "<span>Location: </span> Phoenix Arizona",
+        //     jobHospital: "<span>Hospital: </span> Valley Vista Clinic",
+        //     jobPositionType: "<span>Position Type: </span> Full-Time",
+        // },
+        // {
+        //     jobTitle: "Cardiac Care Nurse (Night)",
+        //     jobDescription: "We are seeking a Cardiac Care Nurse (Nights), internally referred to as our Cardiac Care Unit (CCU) Registered Nurse (RN) at Saint John Hospital a member of Prime Healthcare. The Cardiac Nurse plays a critical role in attending to patients with heart conditions, cardiac issues, and associated illnesses, provide tailored care to enhance recovery and enhance quality of life.   Bonus Options: Up to a $20,000 (Paid out as stipends...We are seeking a Cardiac Care Nurse (Nights), internally referred to as our Cardiac Care Unit (CCU) Registered Nurse (RN) at Saint John Hospital a member of Prime Healthcare. The Cardiac Nurse plays a critical role in attending to patients with heart conditions, cardiac issues, and associated illnesses, provide tailored care to enhance recovery and enhance quality of life.   Bonus Options: Up to a $20,000 (Paid out as stipends...",
+        //     jobLocation: "<span>Location: </span> Phoenix Arizona",
+        //     jobHospital: "<span>Hospital: </span> Valley Vista Clinic",
+        //     jobPositionType: "<span>Position Type: </span> Part-Time",
+        // },
+        // {
+        //     jobTitle: "Primary Care Physician",
+        //     jobDescription: "The Physician will diagnosis, treat, and help with disease prevention and injury that commonly occur in the general population. May refer patient to specialist when needed for further diagnosis and treatment.",
+        //     jobLocation: "<span>Location: </span> Phoenix Arizona",
+        //     jobHospital: "<span>Hospital: </span> Valley Vista Clinic",
+        //     jobPositionType: "<span>Position Type: </span> Full-Time",
+        // }
     ];
 
     createJobClass();

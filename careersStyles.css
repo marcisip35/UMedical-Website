@@ -308,6 +308,10 @@ nav {
     align-items: center;
 }
 
+#Main-Content img{
+    opacity: 0;
+}
+
 #Main-Content h1{
     font-size: 60px;
 }
